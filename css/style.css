@@ -1,11 +1,31 @@
 body{
     margin: 0;
     background-color: rgb(226, 226, 226);
-    color: rgb(30, 37, 129);
+
     font-weight: bold;
     font-style: italic;
     font-family: sans-serif;
     text-align: center;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
+#titulo{
+    background-color: cadetblue;
+    padding: 20px;
+    color: rgb(30, 37, 129);
+    cursor:pointer;
+}
+
+#titulo:hover{
+    transform: scale(1.03);
+    background-color:rgb(159, 207, 209);
+}
+
+#titulo:active{
+    transform: scale(0.97);
+    background-color: cadetblue;
+}
