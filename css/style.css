@@ -42,6 +42,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 4px rgba(194, 64, 24, 0.404);
 }
 
 #inputName{
@@ -50,5 +51,18 @@ body{
     height: 30px;
     margin-top:50px;
     width: 200px;
+    padding-left: 15px;
+}
+
+#inputCheck{
+    margin-top: 20px;
+}
+
+#enviarBtn{
+    margin-top: 50px;
+    border-style: none;
+    height:30px;
+    width: 100px;
+    border-radius: 10px;
 }
 
